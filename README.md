@@ -1,2 +1,2 @@
 # yeast-human-homology-esm
-Alignment-free homology search and function transfer between S. cerevisiae and H. sapiens using ESM-C protein language model embeddings.
+Alignment-free homology search and function transfer between S. cerevisiae and H. sapiens using ESM-C protein language model embeddings. Generates per-protein embeddings, retrieves top-k human nearest neighbors (cosine/Euclidean), compares against BLASTp baselines, and predicts yeast function via similarity-weighted GO term aggregation with evaluation (Top-1/Top-5/MRR, GO Jaccard).
